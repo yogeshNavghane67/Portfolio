@@ -2,27 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Yogesh Navghane</div>
+        <div class="logo">John Doe</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#project">Project</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Yogesh Navghane</div>
+        <div class="logo">John Doe</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -32,31 +33,32 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
-
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="profile picture">
+            <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello,I'm</p>
-            <h1 class="title">Yogesh Navghane</h1>
-            <p class="section__text__p2">Web Developer</p>
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">John Doe</h1>
+            <p class="section__text__p2">Frontend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download
-                    CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="linkedin profile" class="icon"
-                    onclick="location.href='https://linkedin.com/'">
-                <img src="./assets/github.png" alt="github profile" class="icon"
-                    onclick="location.href='https://github.com/'">
-
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://linkedin.com/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/'" />
             </div>
         </div>
     </section>
@@ -65,19 +67,19 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="profile pic" class="about-pic">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
                         <h3>Experience</h3>
-                        <p>2+ years <br />Web Development</p>
+                        <p>2+ years <br />Frontend Development</p>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon">
-                        <h3>Equcation</h3>
-                        <p>B.Sc. bachelors Degree <br />M.Sc. Masters Degree</p>
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -92,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
@@ -100,7 +102,7 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Developer </h2>
+                    <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -147,7 +149,7 @@
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -181,56 +183,364 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Project</h1>
+        <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">E-commerce MERN</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/E-commerce_MERN'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Live Demo
-                    </button>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Travel zone app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/travel-zone-app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">YouTube Clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/YouTube_Clone'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Twitter clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/twitter-clone'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Pinterest app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/pinterest-app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">WhatsApp clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/WhatsApp-clone'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Book store</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/book-store-project'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Image gallery mern</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_gallery_mern_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">News app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/news-app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Social media app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Social_media_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Drawing Paint app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Drawing_Paint_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Image Editor</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_Editor'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Auth using MERN Stack</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Auth_using_MERN_Stack'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/272001075-883fe74f-177d-4da4-a4bd-56e4c8b8f22f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzUzMjMsIm5iZiI6MTcwNjk3NTAyMywicGF0aCI6Ii8xMjQwNzUwMzkvMjcyMDAxMDc1LTg4M2ZlNzRmLTE3N2QtNGRhNC1hNGJkLTU2ZTRjOGI4ZjIyZi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNTQzNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NmQ2NDJmMmY5MWQyOWY5MzllY2YwNjUzOTdmOGMyNzZhMmFhOTAxMGE2MjY3NDYyYmVjYzU4YWU4ZTU2NGQ2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.TXyOinVbGV_sBrlp90XWkKylIZ26P9x3RaSiciJ8NZI" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Video Chat App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Video_Chat_App'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/265734292-5797ea34-8716-4dfe-8350-c6f46124cd2f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzU2MTUsIm5iZiI6MTcwNjk3NTMxNSwicGF0aCI6Ii8xMjQwNzUwMzkvMjY1NzM0MjkyLTU3OTdlYTM0LTg3MTYtNGRmZS04MzUwLWM2ZjQ2MTI0Y2QyZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNTQ4MzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOWNiM2YwMWNiY2I0NWZkODdiYjRjNzJkOTQ2Njk3ZmE2YTYyMzY1ZTZjZjQ1MGE0ZDgwYTc3NDcwZjE5NWQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.XjqFVCEFo20sVTlX26VuVhEzXxuuglit5U15nKfIBdk" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Gradient color generator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Gradient_color_generator'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/265742605-735847a9-2862-4567-991a-64a7961a92f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzU4MDEsIm5iZiI6MTcwNjk3NTUwMSwicGF0aCI6Ii8xMjQwNzUwMzkvMjY1NzQyNjA1LTczNTg0N2E5LTI4NjItNDU2Ny05OTFhLTY0YTc5NjFhOTJmOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNTUxNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wY2JkZmI3MGI3M2NlM2RkNjkwYzRkNTliZDFjZDMxZGU4YTQ1MTZkZGFiOGRhOGJkMzE1ZDIzMWQ5MGFiMTk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kIKGmnomgqC3ysuDhCrU_BSlpBnd9w-L1LEEF2V40mM" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tic tac toe</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Tic_tac_toe_game'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/266797626-67063dac-afe1-4465-9165-d2cd8e803475.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzY4ODMsIm5iZiI6MTcwNjk3NjU4MywicGF0aCI6Ii8xMjQwNzUwMzkvMjY2Nzk3NjI2LTY3MDYzZGFjLWFmZTEtNDQ2NS05MTY1LWQyY2Q4ZTgwMzQ3NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjA5NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOWIyNzAyOTU0Zjk1OWI3ZTJhMDE1NjMxZDEzOGRhMDBhMWE2Mjc4ZDJjNjlmM2MzZDM5ZTVmOWViMzljYzQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iCIWXgqn8lDN9UTCr0VEkBzqAX_HtZ7oxKD7yXx8y78" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Image Search app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_Search_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/266797803-9bf29bdd-bbd4-4c9b-82e8-1b71b83bad4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzY0NDUsIm5iZiI6MTcwNjk3NjE0NSwicGF0aCI6Ii8xMjQwNzUwMzkvMjY2Nzk3ODAzLTliZjI5YmRkLWJiZDQtNGM5Yi04MmU4LTFiNzFiODNiYWQ0ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjAyMjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZmY3MGJlNGFhYjk0MWE3Yjg4YmExMTU2YWJhMzNhNzgwODBiMTI2NGYyOGYwMTI4MWEzN2E5NzE1MzNkZTFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.i-5OvzQe56tLL4jtuu0SEWAqy9deNT081x89jvhd5SQ" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Text to Speech converter</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Text_to_Speech_converter_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/266797719-de7db4b9-0abc-4e7e-9f79-85f78a36b240.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzY3NDMsIm5iZiI6MTcwNjk3NjQ0MywicGF0aCI6Ii8xMjQwNzUwMzkvMjY2Nzk3NzE5LWRlN2RiNGI5LTBhYmMtNGU3ZS05Zjc5LTg1Zjc4YTM2YjI0MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjA3MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYmE2ODAzYzIyMWM1ZWQ2NjYyZDQwZWQ0MTQxNGMxYjI2NDk5MDNhMzdmMGIyODFmYTNiNGI5ZGM2NTI2OTFjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.biYAijt5AsnkFUSRi805x9bymvUcDSIq67GJHc_Ezm0" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Snake Game</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Snake_Game'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/267037527-04aa786f-e3a6-4535-8329-7db157e72f43.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzY2MTUsIm5iZiI6MTcwNjk3NjMxNSwicGF0aCI6Ii8xMjQwNzUwMzkvMjY3MDM3NTI3LTA0YWE3ODZmLWUzYTYtNDUzNS04MzI5LTdkYjE1N2U3MmY0My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjA1MTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNmIwZGMzNjRlOWRkODUxNGQ4NTk1MWU1ZWIyNTViNGQ1ZTk1NDk5ZTRmYjk3Yzc4MmQ5N2I2YmI0NDYzOTdjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.sBiVwawC138qoSchB-yHXhihbc4BmBIy_Hsb2V2j4xY" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">File Downloader</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/File_Downloader'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/267441064-f43bbdb2-5f59-491a-a030-241e06e860ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzcwMjAsIm5iZiI6MTcwNjk3NjcyMCwicGF0aCI6Ii8xMjQwNzUwMzkvMjY3NDQxMDY0LWY0M2JiZGIyLTVmNTktNDkxYS1hMDMwLTI0MWUwNmU4NjBhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjEyMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMGQ2ZjliMzI1OGFkODAyMDUyODE4ODlhNmExMDc3YTE4ZmY5NDdjNzUzMzBlYzUzMTk3YjdmMmM3NGU5ZmMwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UTxfdpyA0BPQLW5r3VBiXqULyD9gGJk_FWRLmUWlE_Y" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Language Translator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Language_Translator_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/267443066-fb72f277-fbde-4c4c-a5f2-339638def152.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzcxMDEsIm5iZiI6MTcwNjk3NjgwMSwicGF0aCI6Ii8xMjQwNzUwMzkvMjY3NDQzMDY2LWZiNzJmMjc3LWZiZGUtNGM0Yy1hNWYyLTMzOTYzOGRlZjE1Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjEzMjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MjkyODEwMjZlNzk2MGVmZmRiODQwMDI2M2JiZjM4NTI0MWJkYmRmMDFmMzczZGFlM2Q2MDA1ZDI3MmRiZWM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FWZknp89YsdqXybEsPIKPHyeLhe9omvHOAOhSkCsPJA" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Image resizer</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_resizer'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/267443845-e3015dfd-277c-4e1c-b7f5-c8bbc2a5101c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5NzczNTAsIm5iZiI6MTcwNjk3NzA1MCwicGF0aCI6Ii8xMjQwNzUwMzkvMjY3NDQzODQ1LWUzMDE1ZGZkLTI3N2MtNGUxYy1iN2Y1LWM4YmJjMmE1MTAxYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjE3MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNTM0MTY3ZmFmOTFjYzI1MmEyYTZlYzg4YzRmNzc3Y2ExM2Q4ZmY4MmMxNDZhMzBjNDA4ZmM2ZTkwYmJmYzU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.upWNg-8NbF0IWfL-mFpxWOhLlCTy4x7btd1O2spzOWA" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Live code editor</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Live_code_editor'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://private-user-images.githubusercontent.com/124075039/302047926-cc63a4ed-d84b-4594-a74d-98fc82468012.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY5Nzc3NjEsIm5iZiI6MTcwNjk3NzQ2MSwicGF0aCI6Ii8xMjQwNzUwMzkvMzAyMDQ3OTI2LWNjNjNhNGVkLWQ4NGItNDU5NC1hNzRkLTk4ZmM4MjQ2ODAxMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwM1QxNjI0MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ODM5NjE1NjgyNDdkNDA5N2RkYmY2YTdkNTQ3ZWE0YWE5YjU4NWI1M2ExZDI0MjZmMTc0YzI3MjA0ODdjZDMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6-U_UNVvmb8MXCxbZ7qn4wi9eXsMxb-MVSzSxLWqpjc" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Weather App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Weather_App'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Drawing Paint app</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Drawing_Paint_app'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-        </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
@@ -238,36 +548,29 @@
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img
-              src="./assets/email.png"
-              alt="Email icon"
-              class="icon contact-icon email-icon"
-            />
-            <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
-          </div>
-          <div class="contact-info-container">
-            <img
-              src="./assets/linkedin.png"
-              alt="LinkedIn icon"
-              class="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
-          </div>
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
         </div>
-      </section>
-      <footer>
+    </section>
+    <footer>
         <nav>
-          <div class="nav-links-container">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-      </footer>
+        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
