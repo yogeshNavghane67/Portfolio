@@ -277,13 +277,12 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  /* flex-wrap: wrap; */
+  //flex-wrap: wrap;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .about-pic {
@@ -360,6 +359,8 @@ article .icon {
 
 #projects {
   position: relative;
+   height: 40%;
+  /* width: 40%; */
 }
 
 .color-container {
@@ -391,9 +392,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 550vh
-
-
+  /* margin-top: 300vh; */
 }
 
 .contact-info-upper-container {

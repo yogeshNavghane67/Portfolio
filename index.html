@@ -16,14 +16,14 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Yogesh Navghane</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -40,14 +40,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt=" profile picture" />
+            <img src="./assets/profile-pic3.png" alt=" profile picture" />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Yogesh Navghane</h1>
             <p class="section__text__p2">Web Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/yn-resume.pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -66,9 +66,9 @@
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section__pic-container">
+            <!-- <div class="section__pic-container">
                 <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
-            </div>
+            </div> -->
             <div class="about-details-container">
                 <div class="about-containers">
                     <!-- <div class="details-container">
@@ -84,11 +84,12 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        I’m Yogesh, a Computer Science graduate from Savitribai Phule Pune University. Currently, I am pursuing
-                        my Master’s in Computer Science, Passionate about Web Development goals is to achieve a good 
-                        position by doing satisfying work in the IT field, strongly focused to complete the Task in fast-faced 
-                        Environment. I am proficient in multiple programming language, including Java, Python, and 
-                        JavaScript, and familiar with Object Oriented Programming concept
+                        Hi! I’m Yogesh, a Computer Science graduate from Savitribai Phule Pune University in 2022. Currently, I am pursuing my Master’s in Computer Science, Passionate about Web Development goals is to achieve a good position by doing satisfying work in the IT field, strongly focused to complete the Task in fast-faced Environment. <br>
+                        Familiar with React a JavaScript library. Next JS a React framework. Hands on experience in designing web pages using Vanilla CSS, Bootstrap, Tailwind CSS, Material UI, Styled components. Familiar in working with Content Management Systems
+                        Currently developing my skills in API development using MongoDB, Express Node JS. Hands on experience in working with Git and GitHub backed workspaces
+                        Development experience with multiple languages like  Java, Python, JavaScript. <br>
+                        I really enjoy learning new things and connecting with people across a range of industries 
+                        
                     </p>
                 </div>
             </div>
@@ -97,7 +98,7 @@
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
@@ -120,7 +121,7 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>SASS</h3>
+                                <h3>ReactJS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -141,22 +142,15 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Material UI</h3>
+                                <h3>Tailwind CSS </h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
@@ -191,6 +185,20 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
+                        <img src="project/Screenshot (543).png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Foodie's Zone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/food_ordering_app_frontend'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://food-ordering-app-frontend-q7ty.onrender.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
                         <img src="project/Screenshot (535).png" alt="Project 1" class="project-img" />
                     </div>
                     <h2 class="experience-sub-title project-title">E-commerce MERN</h2>
@@ -199,6 +207,20 @@
                             Github
                         </button>
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="project\Screenshot (310).png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">YouTube Clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/YouTube_Clone'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtubeyn.netlify.app/ '">
                             Live Demo
                         </button>
                     </div>
@@ -219,20 +241,6 @@
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="project\Screenshot (310).png" alt="Project 3" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">YouTube Clone</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/YouTube_Clone'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
                         <img src="project\Screenshot (528).png" alt="Project 3" class="project-img" />
                     </div>
                     <h2 class="experience-sub-title project-title">Twitter clone</h2>
@@ -240,7 +248,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/twitter-clone'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://twitter-clone-eight-delta.vercel.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -273,7 +281,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (532).png" alt="Project 3" class="project-img" />
                     </div>
@@ -286,7 +294,7 @@
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (529).png" alt="Project 3" class="project-img" />
@@ -310,7 +318,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/news-app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://news-app-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -324,7 +332,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Drawing_Paint_app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://drawing-paint-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -338,12 +346,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_Editor'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://image-editor-yn.netlify.app'">
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2023-10-09 204111.png" alt="Project 3" class="project-img" />
                     </div>
@@ -356,7 +364,7 @@
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2024-04-05 215131.png" alt="Project 3" class="project-img" />
@@ -371,7 +379,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (283).png" alt="Project 3" class="project-img" />
                     </div>
@@ -380,12 +388,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Gradient_color_generator'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gradient-color-generator-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
-                <div class="details-container color-container">
+                </div> -->
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (287).png" alt="Project 3" class="project-img" />
                     </div>
@@ -394,11 +402,11 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Tic_tac_toe_game'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://tic-tac-toe-game-yn.netlify.app'">
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (288).png" alt="Project 3" class="project-img" />
@@ -408,7 +416,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_Search_app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://image-search-app-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -422,12 +430,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Text_to_Speech_converter_app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://text-to-speech-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (294).png" alt="Project 3" class="project-img" />
                     </div>
@@ -436,11 +444,11 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Snake_Game'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://snake-game-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (295).png" alt="Project 3" class="project-img" />
@@ -450,7 +458,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/File_Downloader'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://file-download-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -464,7 +472,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Language_Translator_app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://language-translator-app-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -478,7 +486,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Image_resizer'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://image-resizer-yn.netlify.app '">
                             Live Demo
                         </button>
                     </div>
@@ -492,7 +500,7 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Live_code_editor'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://live-code-editor-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
@@ -511,7 +519,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2024-04-05 215300.png" alt="Project 3" class="project-img" />
                     </div>
@@ -520,11 +528,11 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Notes_app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://notes-app-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2023-10-02 004212.png" alt="Project 3" class="project-img" />
@@ -534,12 +542,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Typing_speed_test_game'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://typing-speed-test-game-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (312).png" alt="Project 3" class="project-img" />
                     </div>
@@ -548,11 +556,11 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Ai_Image_Generator'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://ai-image-generator-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot (527).png" alt="Project 3" class="project-img" />
@@ -562,12 +570,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Candy-crush-app'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://candy-crush-app.netlify.app'">
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2023-09-24 023112.png" alt="Project 3" class="project-img" />
                     </div>
@@ -576,12 +584,12 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/calculater'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://calculator-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
-                <div class="details-container color-container">
+                </div> -->
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="project\Screenshot 2023-09-22 220606.png" alt="Project 3" class="project-img" />
                     </div>
@@ -590,11 +598,11 @@
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/yogeshNavghane67/Age_calculator'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://age-calculator-yn.netlify.app/'">
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
@@ -609,7 +617,7 @@
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                <p><a href="https://www.linkedin.com/in/yogeshnavghane67">LinkedIn</a></p>
             </div>
         </div>
     </section>

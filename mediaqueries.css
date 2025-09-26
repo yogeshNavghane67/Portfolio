@@ -10,8 +10,14 @@
   #projects {
     height: fit-content;
   }
+  #contact {
+    display: flex;
+    justify-content: bottom;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 0vh;
+  }
 }
-
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -46,16 +52,24 @@
   .about-containers {
     margin-top: 0;
   }
+  #contact {
+    display: flex;
+    justify-content: bottom;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 0vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  #profile,
+  #about,
   #contact,
   footer {
     height: 40vh;
   }
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: 30vh;
   }
   article {
     font-size: 1rem;
@@ -64,6 +78,8 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .section-container,
+  .about-details-container,
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -100,5 +116,22 @@
   }
   .text-container {
     text-align: justify;
+  }
+  /* #contact,
+  #projects {
+    height: fit-content;
+  } */
+
+  #contact {
+    display: flex;
+    justify-content: bottom;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 0vh;
+  }
+
+  #about {
+    height: 10vh;
+    margin-top: 0px;
   }
 }
